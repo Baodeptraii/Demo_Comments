@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake YT Comment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 500px;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>TOP COMMENTS !!!</h2>
+        <ul id="comments">
+            <li></li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <label>Tên</label>
+            <input type="text" name="name" placeholder="Nhập tên bạn vào đây ..." required>
+        </div>
+        <div>
+            <label>Bình luận</label>
+            <input type="text" name="content" placeholder="Bạn đang nghĩ gì ...." required>
+        </div>
+        <div class="alert"></div>
+        <div>
+            <button id="create">Bình luận ngay !!!</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
